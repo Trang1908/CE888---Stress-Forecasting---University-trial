@@ -35,11 +35,11 @@ These examples include:
   
   
 - Define a function for feature scaling with standardization
-- 
+
   **def _standardize(self)**
   
 - Define a function for reducing dimensionality of dataset
-- 
+
 **def _reduce_dimension(self, variance)**
   
 
