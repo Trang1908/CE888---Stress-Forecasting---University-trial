@@ -4,7 +4,7 @@
 
 [Link to instruction](https://moodle.essex.ac.uk/pluginfile.php/1007595/course/section/139943/2022_CE888_Assignment_2.pdf?time=1675939526588)
 
-Firstly, there are two files: "Assignment2_CE888.ipynb" and "Sensor.py" should be downloaded and put in the same folder before running.
+Firstly, there are two files: **"Assignment2_CE888.ipynb"** and **"Sensor.py"** should be downloaded and put in the same folder before running.
 
 
 
