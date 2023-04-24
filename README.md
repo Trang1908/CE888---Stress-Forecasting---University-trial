@@ -40,6 +40,6 @@ These examples include:
   
 - Define a function for reducing dimensionality of dataset
 
-**def _reduce_dimension(self, variance)**
+  **def _reduce_dimension(self, variance)**
   
 
