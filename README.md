@@ -7,7 +7,7 @@
 [Link to instruction](https://moodle.essex.ac.uk/pluginfile.php/1007595/course/section/139943/2022_CE888_Project_Stress_wearables.pdf?time=1674147604064)
 
 
-Firstly, there are two files: **"Assignment2_CE888.ipynb"** and **"Sensor.py"** should be downloaded and **put in the same folder**. Then both of the files should be run at the same time.
+Firstly, there are two files: **"Assignment2_CE888.ipynb"** and **"Sensor.py"** that should be downloaded and **put in the same folder**. Then both of the files should be run at the same time.
 
 
 
