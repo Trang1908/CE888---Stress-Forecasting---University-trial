@@ -4,6 +4,11 @@
 
 [Link to instruction](https://moodle.essex.ac.uk/pluginfile.php/1007595/course/section/139943/2022_CE888_Assignment_2.pdf?time=1675939526588)
 
+Firstly, there are two files: "Assignment2_CE888.ipynb" and "Sensor.py" should be downloaded and put in the same folder before running.
+
+
+
+
 1. The notebook ("Assignment2_CE888.ipynb") contains the code sections for illustrative examples and data exploration on Jupyter Notebook.
 These examples include:
 - The plots of time series data ("BVP", "HR", "EDA", "TEMP") for person 1
