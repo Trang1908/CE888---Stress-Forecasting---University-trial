@@ -12,5 +12,6 @@ These examples include:
 
 2. The notebook ("Sensor.py") contains all the defined function and the main code including:
 - Define a function to load and process raw data of volunteers and then combine all together.
+
   **wrangle(self, filepath, s)**
 
