@@ -25,8 +25,11 @@ class Stress_Forecasting:
         self._start_val = None
         self._start_test = None
         
+
     # Define a function to load and process raw data of volunteers and then combine all together
     def wrangle(self, filepath, s):
+    # filepath = "https://raw.githubusercontent.com/italha-d/Stress-Predict-Dataset/main/Raw_data/"
+    # s: the number from 1 to 35 represents 35 volunteers
 
         df = pd.DataFrame()      
         # Pre-process ACC
@@ -138,7 +141,10 @@ class Stress_Forecasting:
             self._start_test = df.index.tolist().index(int(time_stamp["Time_stamp"][3]))
         return df
     
+
+    # Define a function to create a lag feature  
     def create_data(self, lag_length=1):
+    # lag_length: the fixed time period
 
         X = self._data.drop(columns=["Label","Participant"])
         l_X = X.shift(1)
@@ -151,12 +157,16 @@ class Stress_Forecasting:
         self._features = l_X.to_numpy()
         self._target = y
         
+
+    # Define a function for feature scaling with standardization
     def _standardize(self):
         scaler = StandardScaler()
         scaler.fit(self._features)
         standard_features = scaler.transform(self._features)
         return standard_features
         
+
+    # Define a function for reducing dimensionality of dataset
     def _reduce_dimension(self, variance):
         pca = PCA(n_components=variance, svd_solver='full')
         pca.fit(self._features)
@@ -164,6 +174,9 @@ class Stress_Forecasting:
         reduced_X = pca.transform(self._features)
         return reduced_X
 
+
+
+    # Define a function for prediction by each model
     def get_results(self, step, types="NB", preprocessing="default", variance=0.8):
         
         model = None
