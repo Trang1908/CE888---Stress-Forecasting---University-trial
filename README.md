@@ -2,7 +2,7 @@
 
 [Link to download the datasets](https://github.com/italha-d/Stress-Predict-Dataset)
 
-[Link to instruction](https://github.com/italha-d/Stress-Predict-Dataset)
+[Link to instruction](https://moodle.essex.ac.uk/pluginfile.php/1007595/course/section/139943/2022_CE888_Assignment_2.pdf?time=1675939526588)
 
 1. The notebook ("Assignment2_CE888.ipynb") contains the code sections for illustrative examples and data exploration on Jupyter Notebook.
 These examples include:
@@ -17,7 +17,11 @@ These examples include:
   
   Filepath is the link to download the datasets from Github:  "https://raw.githubusercontent.com/italha-d/Stress-Predict-Dataset/main/Raw_data/"
   
-  s: the number from 1 to 35 represents for the volunteers
+  s: the number from 1 to 35 represents for the volunteers.
   
-- def create_data(self, lag_length=1):
+- Define a function to create a lag feature
+
+  **def create_data(self, lag_length=1)**
+  
+  lag_length: the fixed time period.
 
